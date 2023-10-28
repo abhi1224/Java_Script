@@ -4,7 +4,7 @@ A repo for java script
 
 # Project 1 Color Switcher
 
-[PROJECT CODE] (https://github.com/abhi1224/Java_Script/tree/main/Project/colorchanger)
+[PROJECT CODE](https://github.com/abhi1224/Java_Script/tree/main/Project/colorchanger)
 
 ## Project Link
 
