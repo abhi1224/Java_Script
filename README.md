@@ -40,7 +40,7 @@ A repo for java script
 </html>
 
 ```
-
+[CSS CODE](https://github.com/abhi1224/Java_Script/blob/main/Project/colorchanger/style.css)
 ``` css code 
 *{
     margin:0;
@@ -97,6 +97,8 @@ A repo for java script
 
 
 ```
+
+[JAVASCRIPT CODE](https://github.com/abhi1224/Java_Script/blob/main/Project/colorchanger/script.js)
 
 ``` javascript code 
 
