@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Event</title>
+</head>
+<body>
+    <ul id="images">        
+        
+        <li><img src="https://images.unsplash.com/photo-1699862160391-1aa177a3baff?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="sky" width="200px" alt="loading..." ></li>
+
+        <li><img src="https://images.unsplash.com/photo-1699626896884-4bf183dd7df3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="bear" width="200px" alt="loading..." ></li>
+        <li><a href="https://www.google.com" id="google">Google</a></li>
+                
+    </ul>
+</body>
+<script>
+    // document.getElementById('photoshop').onclick = function(){
+    //     alert('hello')
+    // }
+
+    // document.getElementById('sky').addEventListener('click',function(e){
+    //    console.log(e)
+    // })
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //    console.log('clicked inside the ul')
+    // },false)
+    // document.getElementById('sky').addEventListener('click',function(e){
+    //    console.log('sky clicked')
+    //    e.stopPropagation()
+    // },false)
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault()
+    //     console.log('google clicked');
+    // })
+
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.parentNode);
+
+        if(e.target.tagName === 'IMG'){
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+        
+
+    },false)
+
+
+</script>
+</html>
