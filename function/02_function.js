@@ -35,3 +35,17 @@ function returnSecondValue(getArray){
 }
 
 console.log(returnSecondValue(myNewArray))
+
+function addNumber(){
+    let ans = 0
+    for (let index = 0; index < arguments.length; index++) {
+        ans += arguments[index];
+        
+    }
+    return ans
+}
+// arguments include all the number passing by calling function
+
+let result = addNumber(34,56,76)
+
+let result2 = addNumber(2,4,5,7,8,6,5,3)
