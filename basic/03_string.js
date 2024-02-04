@@ -30,3 +30,12 @@ const url = "https://google.com/%20google"
 console.log(url.replace('%20','-'))
 
 console.log(url.includes('google'))
+
+
+// string + number = string 
+
+console.log('123' + 5); // output - 1235 (string)
+
+// string * number = number
+
+console.log('35' * 2); // output - 70 (number)
