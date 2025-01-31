@@ -1,5 +1,13 @@
-/* In string we can use ' ' or " " . we can concatinate to string by using + operator */
+"use strict"; // treat all js code as newer version of js
 
+
+// Data Type :  1. Primitive 2. Non Primitive(Reference)
+
+// Primitive : - 7 Types :- String, Number, Boolean, null, undefined, Symbol
+// Reference(Non Primitive) :- Array, Object, Functions
+/* 
+In string we can use ' ' or " " . we can concatinate to string by using + operator 
+*/
 console.log("Abhishek "+"Kumar " +"Verma")
 
 const name = "Abhi"
@@ -12,7 +20,7 @@ const gameName = new String('abhishek') // another way to declare a string
 //string methods
 
 
-// console.log(gameName[0])
+console.log(gameName[0])
 // console.log(gameName.length)
 // console.log(gameName.toUpperCase())
 // console.log(gameName.charAt(2))

@@ -14,7 +14,6 @@ console.log(accountPass)
 
 console.table([accoutnId,accountMail,accountPass,accoutnCity])
 
-
 let accountState; // undefined
 
 console.log(typeof(accountState))
