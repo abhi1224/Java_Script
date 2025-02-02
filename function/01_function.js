@@ -26,6 +26,8 @@ function sum(number1 , number2)
 // const result  = sum(3,5)
 // console.log("Result: " , result);  
 
+
+// default value of firstname is 'abhi'
 function name (firstname = 'abhi')
 {
     console.log(firstname)
