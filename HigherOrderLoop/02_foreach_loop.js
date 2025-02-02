@@ -9,7 +9,7 @@ const coding = ['js','ruby','java','python','cpp']
 // })
 
 function printme(item){
-    console.log(item);
+    // console.log(item);
 }
 // coding.forEach(printme)
 
@@ -17,3 +17,29 @@ coding.forEach( (item , index , arr) => {
     console.log(item , index , arr);
 })
 // for each parameter has value , index and arr access
+
+const arr = [
+    {
+        langaugeName : "javascript",
+        lang: "js"
+    },
+    {
+        langaugeName : "javascript",
+        lang: "js"
+    },
+    {
+        langaugeName : "javascript",
+        lang: "js"
+    },
+    {
+        langaugeName : "javascript",
+        lang: "js"
+    },
+    {
+        langaugeName : "javascript",
+        lang: "js"
+    },
+]
+arr.forEach((item) => {
+    console.log(item.lang);    
+})

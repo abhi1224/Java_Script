@@ -1,6 +1,5 @@
 
 //============== for of loop ============
-
 const arr = [1,2,3,4,5]
 
 // array
@@ -55,3 +54,12 @@ for (const key in myobj) {
 }
 // for in loop use to iterate for object
 // for in loop in array return the keys -
+
+
+const programming = ["js", "rb","py", "java", "cpp"]
+for (const key in programming) {
+   console.log(key); 
+   console.log(programming[key]);
+     
+}
+
