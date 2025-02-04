@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 id="title" class="heading">DOM Learning <span style="display: none;">Hi there !</span></h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">thee</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- 
+// Notes : 
+
+🤷‍♂️ Difference between innerHTML and innerText and textContent ----->
+
+-> innerHTML : It will return the whole HTML content of the element
+-> innerText : It will return the text content of the element 
+-> textContent : It will return the text content of the element show all the text content including the hidden text content
+
+// Selecting Elements
+
+1. querySelector() : It will return the first element that matches the specified CSS selector(s) in the document.
+
+2. querySelectorAll() : It will return all elements that matches the specified CSS selector(s) in the document. It returns a static NodeList representing a list of the document's elements that match the specified group of selectors.(
+    1. give foreach loop to iterate through it)
+
+3. getElementByclassName() : It will return all elements that have the specified class name. It returns a live HTMLCollection of found elements in the document.(
+    1. It does not give forEach loop to iterate through it
+    2. use Array.from() to convert it into an array)
+
+4. getElementById() : It will return the element that has the ID attribute with the specified value.
+-->
