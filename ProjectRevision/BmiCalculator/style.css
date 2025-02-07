@@ -1,0 +1,25 @@
+ *{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.formContainer > *{
+    flex-grow: 1;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
