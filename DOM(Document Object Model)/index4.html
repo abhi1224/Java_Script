@@ -8,10 +8,24 @@
 <body>
     <ul id="images">        
         
-        <li><img src="https://images.unsplash.com/photo-1699862160391-1aa177a3baff?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="sky" width="200px" alt="loading..." ></li>
+        <li>
+            <img 
+            
+            src="https://images.unsplash.com/photo-1699862160391-1aa177a3baff?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="sky" width="200px" 
+            alt="loading..." >
+        </li>
 
-        <li><img src="https://images.unsplash.com/photo-1699626896884-4bf183dd7df3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="bear" width="200px" alt="loading..." ></li>
-        <li><a href="https://www.google.com" id="google">Google</a></li>
+        <li>
+            <img 
+            src="https://images.unsplash.com/photo-1699626896884-4bf183dd7df3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D" id="bear" width="200px" 
+            alt="loading..." >
+        </li>
+        <li>
+            <a 
+            href="https://www.google.com" 
+            id="google">Google
+            </a>
+        </li>
                 
     </ul>
 </body>
@@ -37,16 +51,16 @@
     //     console.log('google clicked');
     // })
 
-    document.querySelector('#images').addEventListener('click',function(e){
-        console.log(e.target.parentNode);
+    // document.querySelector('#images').addEventListener('click',function(e){
+    //     console.log(e.target.parentNode);
 
-        if(e.target.tagName === 'IMG'){
-            let removeIt = e.target.parentNode
-            removeIt.remove()
-        }
+    //     if(e.target.tagName === 'IMG'){
+    //         let removeIt = e.target.parentNode
+    //         removeIt.remove()
+    //     }
         
 
-    },false)
+    // },false)
 
 
 </script>
