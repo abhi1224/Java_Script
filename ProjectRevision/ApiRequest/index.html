@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <h1>Hi There </h1>
+</body>
+<script>
+    const body = document.querySelector('body');
+    const div = document.createElement('div');
+
+    const requestUrl = 'https://api.github.com/users/abhi1224';
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', requestUrl);
+    
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+        if(xhr.readyState === 4){
+            const data = JSON.parse(this.response);           
+
+            div.appendChild(document.createTextNode(data.followers));
+            body.appendChild(div);
+
+            div.appendChild(document.createTextNode(data.public_repos));
+            body.appendChild(div);
+
+            console.log(data);            
+        }        
+    }
+    xhr.send();
+</script>
+</html>
